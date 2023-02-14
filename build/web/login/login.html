@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="main"><div class="outer-box">
+        <div class="inner-box">
+            <h1>Log in</h1>
+            <hr>
+            <form action="loginhandler.jsp">
+                <span class="form-item">
+                    <label for="user_id">UserId / Email</label>
+                    <input type="text" name="user_id" id="user_id" placeholder="UserId / Email" required>
+                </span>
+                <span class="form-item">
+                    <label for="password">Password</label>
+                    <div class="pwd">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <i class="fa-solid fa-eye fa-xl i"></i>
+                    </div>
+                </span>
+                <span class="form-item">
+                    <p>Don't have an account?<a href="../SignUp/signup.html"> SignUp.</a></p>
+                </span>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div></div>
+    
+    <footer id="footer">
+        <i class="fa-solid fa-envelope f"></i>
+        <i class="fa-brands fa-github f"></i>
+        <i class="fa-brands fa-linkedin f"></i>
+        <i class="fa-brands fa-twitter f"></i>
+        <p>© copyright AskLet.</p>
+    </footer>
+    <script src="login.js"></script>
+    <script src="https://kit.fontawesome.com/4f9bdec7a2.js" crossorigin="anonymous"></script>
+</body>
+</html>
