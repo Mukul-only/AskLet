@@ -71,13 +71,13 @@
     <section id="features">
 
         <h2>What makes us different?</h2>
-        <p>Weâre obsessed with providing actionable insights that let the numbers tell the full story.</p>
+        <p>We are obsessed with providing actionable insights that let the numbers tell the full story.</p>
         <div class="features-in">
             <div class="ft">
                 <i class="fa-solid fa-apple-whole fa-5x"></i>
                 <h3>Fresh</h3>
                 <p>We take the hard work out of research by giving you the tools to deep dive into the latest data from
-                    markets. Youâll be able to connect with your audience in an instant.</p>
+                    markets. You all be able to connect with your audience in an instant.</p>
             </div>
             <div class="ft">
                 <i class="fa-solid fa-clock fa-5x"></i>
@@ -93,6 +93,73 @@
             </div>
         </div>
 
+    </section>
+
+ <!-- ----------------------------------------------------------------HOW IT WORKS SECTION ------------------------------------------------- -->
+    <section id="steps">
+        <h2>How It Works ?</h2>
+        <ol>
+            <div class="hw">
+                <img src="assets/create_survey.png" alt="">
+                <li><h3>Create Your Survey</h3>
+                    <ul>
+                        <li>Sign up for an account or log in to your existing account.</li>
+                        <li>Choose the type of survey you want to create (e.g. customer satisfaction, market research, employee feedback).</li>
+                        <li>Use our customizable survey templates or create your own questions.</li>
+                        <li>Add branding elements such as your logo and colors to make the survey match your brand.</li>
+                    </ul>
+                </li>
+            </div>
+          
+            <div class="hw">
+                <li><h3>Distribute your survey</h3>
+                    <ul>
+                        <li>Choose how you want to distribute your survey (e.g. email, social media, website).</li>
+                        <li>Use our email invitation tool to send personalized invitations to your audience.</li>
+                        <li>Embed the survey on your website or social media page.</li>
+                        <li>Use our live survey links to share the survey with anyone.</li>
+                    </ul>
+                </li>
+                <img src="assets/distribute.png" alt="" style="width:500px;">
+            </div>
+           
+            <div class="hw">
+                <img src="assets/collect.gif" alt="">
+                <li><h3>Collect responses</h3>
+                    <ul>
+                        <li>Watch your survey responses come in real-time as respondents complete your survey.</li>
+                        <li>Track your response rate to see how many people have responded.  </li>
+                        <li>Monitor your survey data to see how respondents are answering each question.</li>
+                    </ul>
+                </li>
+            </div>
+            
+            <div class="hw">
+                <li><h3>Analyze your results</h3>
+                    <ul>
+                        <li>Use our data analysis tools to explore and filter your survey data.</li>
+                        <li>Create custom reports to share your survey results with your team or stakeholders</li>
+                        <li>Export your data to CSV or Excel to use in other applications.</li>
+                    </ul>
+                </li>
+                <img src="assets/Analyze.png" alt="" style="width:600px;">
+            </div>
+            
+            <div class="hw">
+                <img src="assets/Take_Action.png" alt="" >
+                <span class="nl">
+                    <li><h3>Take action!</h3>
+                        <ul>
+                            <li>Use the insights you've gained from your survey to make informed decisions about your business, product, or service.</li>
+                            <li>Share your survey results with your team or stakeholders to get buy-in and support for your initiatives.</li>
+                            <li>Create a plan to address any issues or opportunities that your survey has identified.</li>
+                        </ul>
+                </span>
+                
+                </li>
+            </div>
+           
+        </ol>
     </section>
 
     <section id="about-us">
@@ -131,20 +198,7 @@
                     <div class="progress-bar" style="width:30%"></div>
 
                 </div>
-                <!-- <div class="part">
-
-                    <div class="part-title">
-                        <span class="part-text">
-                            <i class="fa-brands fa-js fa-lg"></i>
-                            <h4>JavaScript</h4>
-                        </span>
-
-                        <div class="percentage">100%</div>
-                    </div>
-
-                    <div class="progress-bar" style="width:100%"></div>
-
-                </div> -->
+                
                 <div class="part">
                     <div class="part-title">
                         <span class="part-text">

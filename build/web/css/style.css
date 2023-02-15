@@ -250,8 +250,40 @@ nav ul li:hover{
     margin-bottom:15%;
 }
 
-
-
+/* how it works */
+#steps{
+    padding:7% 10%;
+}
+#steps h2{
+    text-align: center;
+}
+ol li{
+    font-size:1.4rem;
+    font-weight: 600;
+}
+.hw{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hw h3{
+    padding:15px 0;
+}
+.hw ul li{
+    font-size:1rem;
+    line-height: 3;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    margin:0 0 0 25px;
+}
+.hw img{
+    width:400px;
+    
+}
+#steps .hw:nth-child(5) .nl{
+    margin-left:120px;
+}
 /* About-us */
 #about-us{
     padding:7% 10%;
