@@ -97,6 +97,11 @@
 
  <!-- ----------------------------------------------------------------HOW IT WORKS SECTION ------------------------------------------------- -->
     <section id="steps">
+        <div class="style">
+            <div class="rect">
+
+            </div>
+        </div>
         <h2>How It Works ?</h2>
         <ol>
             <div class="hw">
@@ -160,6 +165,11 @@
             </div>
            
         </ol>
+        <div class="s-ot">
+            <div class="s-in">
+                
+            </div>
+        </div>
     </section>
 
     <section id="about-us">
