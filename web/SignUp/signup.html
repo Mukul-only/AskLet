@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="outer-box">
+            <div class="inner-box">
+                <h1>Sign Up</h1>
+                <hr>
+                <form onsubmit="return verifyPassword()" action="SignupHandler.jsp">
+                    <span class="fields names">
+                        <input class="name" type="text" name="f-name" id="f-name" placeholder="First Name *" required>
+                        <input class="name" type="text" name="l-name" id="l-name" placeholder="Last Name *" required>
+                    </span>
+                    <span class="fields">
+                        <input type="email" name="email" id="email" placeholder="Email *" required>
+                    </span>
+                    <span class="fields gender">
+                        <span class="gender-item">
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">male</label></span>
+                        <span class="gender-item">
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">female</label>
+                        </span>
+                        <span class="gender-item">
+                            <input type="radio" name="gender" id="other" value="other">
+                            <label for="other">other</label>
+                        </span>
+                    </span>
+                    <span class="fields">
+                    
+                        <input type="text" name="date" id="DOB" placeholder="Enter Date of birth *" required>
+                        
+                    </span>
+                    <span class="fields">
+                        <p id="messege"></p>
+                        
+                            <div class="pwd">
+                                <input type="password" name="password" id="password" placeholder="password *" required>
+                                <i class="fa-solid fa-eye i"></i>
+                            </div>
+                                              
+                    </span>
+                    <span class="fields">
+
+                        <p id="con-messege"></p>
+                            <div class="pwd"><input type="password" name="con-password" id="con-password" placeholder="confirm password *" required>
+                                <i class="fa-solid fa-eye i"></i>
+                            </div>
+                            
+                        
+                    </span>
+                    <span class="fields go-to">
+                        <p class="have-account">Already have an account? <a class="login"
+                        href="../login/login.html">Login</a></p>
+                        <input  type="reset" value="Reset">
+                    </span>
+                    <span class="fields action-btn">
+                        
+                        <input class="name" type="submit" value="Sign Up">
+                        
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <i class="fa-solid fa-envelope f"></i>
+        <i class="fa-brands fa-github f"></i>
+        <i class="fa-brands fa-linkedin f"></i>
+        <i class="fa-brands fa-twitter f"></i>
+        <p class="cr">© copyright AskLet.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/4f9bdec7a2.js" crossorigin="anonymous"></script>
+    <script src="signup.js"></script>
+</body>
+
+</html>
